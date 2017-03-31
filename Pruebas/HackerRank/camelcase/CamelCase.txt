@@ -1,0 +1,74 @@
+
+
+    Practice
+    Compete
+    Find Jobs
+    Rank
+    Leaderboard
+
+    manuelvigarcia
+
+    All Domains Algorithms Strings CamelCase 
+
+Badge Progress(Details)
+Points: 51.00 Rank: 225109
+CamelCase
+by nabila_ahmed
+
+    Problem
+    Submissions
+    Leaderboard
+    Discussions
+    Editorial
+
+Alice wrote a sequence of words in CamelCase as a string of letters, s, having the following properties:
+
+    It is a concatenation of one or more words consisting of English letters.
+    All letters in the first word are lowercase.
+    For each of the subsequent words, the first letter is uppercase and rest of the letters are lowercase.
+
+Given S, print the number of words in on a new line.
+
+Input Format
+
+A single line containing string s.
+
+Constraints
+1 <= |S| <= 10^5
+
+Output Format
+
+Print the number of words in string S.
+
+Sample Input
+
+saveChangesInTheEditor
+
+Sample Output
+
+5
+
+Explanation
+
+String contains five words:
+
+    save
+    Changes
+    In
+    The
+    Editor
+
+Thus, we print 5 on a new line.
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String s = in.next();
+    }
+}

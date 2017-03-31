@@ -1,0 +1,111 @@
+
+
+    All Domains Algorithms Warmup Staircase 
+
+Consider a staircase of size :
+
+   #
+  ##
+ ###
+####
+
+Observe that its base and height are both equal to n, and the image is drawn using # symbols and spaces. The last line is not preceded by any spaces.
+
+Write a program that prints a staircase of size n.
+
+Input Format
+
+A single integer, n, denoting the size of the staircase.
+
+Output Format
+
+Print a staircase of size n using # symbols and spaces.
+
+Note: The last line must have o spaces in it.
+
+Sample Input
+
+6 
+
+Sample Output
+
+     #
+    ##
+   ###
+  ####
+ #####
+######
+
+Explanation
+
+The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of .
+
+Submissions: 139034
+
+Max Score:
+
+10
+
+Difficulty:
+
+Easy
+
+Rate This Challenge:
+More
+
+1
+
+import java.io.*;
+
+2
+
+import java.util.*;
+
+3
+
+import java.text.*;
+
+4
+
+import java.math.*;
+
+5
+
+import java.util.regex.*;
+
+6
+
+?
+
+7
+
+public class Solution {
+
+8
+
+?
+
+9
+
+    public static void main(String[] args) {
+
+10
+
+        Scanner in = new Scanner(System.in);
+
+11
+
+        int n = in.nextInt();
+
+12
+
+    }
+
+13
+
+}
+
+14
+
+?
+

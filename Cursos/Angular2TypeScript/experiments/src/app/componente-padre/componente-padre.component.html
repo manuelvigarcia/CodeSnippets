@@ -1,0 +1,7 @@
+<h3>Comunicación entre módulos con event binding</h3>
+<div>La variable frase en componente-padre vale: «{{frase}}»</div>
+inserto el html del hijo:
+<div>
+    <app-componente-hijo (eventoHijo)="listenerPadre($event)"></app-componente-hijo>
+</div>
+Fin del html del padre
