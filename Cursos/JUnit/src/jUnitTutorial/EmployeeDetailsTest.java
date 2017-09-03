@@ -12,7 +12,7 @@ public class EmployeeDetailsTest {
 	@Before
 	public void setUp(){
 		employee.setAge(25);
-		employee.setName("Arturo Pérez Reverte Otravez");
+		employee.setName("Arturo Pï¿½rez Reverte Otravez");
 		employee.setMonthlySalary(2000);
 	}
 
@@ -31,7 +31,7 @@ public class EmployeeDetailsTest {
 	}
 	@Test
 	public void testGetName(){
-		assertEquals("Arturo Pérez Reverte Otravez", employee.getName());
+		assertEquals("Arturo Pï¿½rez Reverte Otravez", employee.getName());
 	}
 	@Test
 	public void testSetAge(){
